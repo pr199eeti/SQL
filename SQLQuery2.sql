@@ -1,0 +1,1 @@
+Create View HR_SALAsSELECT *FROMEmployee_1Where Department ='HR'Create Procedure HR_SAL_EMPAsBeginSELECT *FROMEmployee_1Where Department ='HR'EndSELECT*FROM HR_SALWhere Salary < 10000SELECT* Department, SUM(Salary) As Total_SalFROM Employee_1Where Department='HR'Group byDepartment
